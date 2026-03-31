@@ -1,0 +1,22 @@
+# --- Core Deep Learning Frameworks ---
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.5
+
+# --- Object Detection (YOLOv8) ---
+ultralytics>=8.0.0
+
+# --- Classification (EfficientNet-B2) ---
+efficientnet-pytorch>=0.7.1
+
+# --- Image Processing & Utils ---
+opencv-python>=4.8.0
+Pillow>=9.5.0
+matplotlib>=3.7.1
+tqdm>=4.65.0
+PyYAML>=6.0
+
+# --- Data Augmentation & Development ---
+scipy>=1.10.1
+pandas>=2.0.0
+roboflow>=1.0.0
