@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Chinese One Yuan Coin', 'Coins-Detection', 'Japanese Fifty Yen Coin', 'Japanese Five Hundred Coin', 'Japanese Five Yen Coin', 'Japanese One Hundred Yen Coin', 'Japanese One Yen Coin', 'Japanese Ten Yen Coin', 'Korean Fifty Won Coin', 'Korean Five Hundred Won Coin', 'Korean Five Won Coin', 'Korean One Hundred Won Coin', 'Korean One Won Coin', 'Korean Ten Won Coin', 'Philippine Five Peso Coin', 'Philippine One Peso Coin', 'Philippine Ten Peso Coin', 'Thailand Five Baht Coin', 'Thailand One Baht Coin', 'Thailand Ten Baht Coin']
+
+roboflow:
+  workspace: plan-pxq2i
+  project: coin-classification-psito
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plan-pxq2i/coin-classification-psito/dataset/8
